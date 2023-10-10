@@ -7,7 +7,7 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §cDemon
+  Name: §c惡魔
   Material: BRICK
   CustomModelData: 3503
   Description:
