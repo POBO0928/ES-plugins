@@ -8,11 +8,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bDire Wolfhawk
+  Name: §b猛狼鷹
   Material: BRICK
   CustomModelData: 2563
   Description:
-  - §fGet your pet Dire Wolfhawk!
+  - §f獲得你的寵物猛狼鷹！
 Signals:
   Values:
   - DASH
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2563
-      DisplayName: §6Dire Wolfhawk
+      DisplayName: §6猛狼鷹
       Lore:
-      - §fGet your pet Dire Wolfhawk!
+      - §f獲得你的寵物猛狼鷹！
   Wolfhawk_Fallen:
     MythicMob: Wolfhawk_Fallen
     Permission: skin.wolfhawk_fallen
     Icon:
       Material: BRICK
       CustomModelData: 2564
-      DisplayName: §4Fallen Wolfhawk
+      DisplayName: §4墮落猛狼鷹
       Lore:
-      - §fGet your pet Fallen Wolfhawk!
+      - §f獲得你的寵物墮落猛狼鷹！
   Wolfhawk_Fullmoon:
     MythicMob: Wolfhawk_Fullmoon
     Permission: skin.wolfhawk_fullmoon
     Icon:
       Material: BRICK
       CustomModelData: 2565
-      DisplayName: §fFullmoon Wolfhawk
+      DisplayName: §f滿月猛狼鷹
       Lore:
-      - §fGet your pet Fullmoon Wolfhawk!
+      - §f獲得你的寵物滿月猛狼鷹！
   Wolfhawk_Stormcloud:
     MythicMob: Wolfhawk_Stormcloud
     Permission: skin.wolfhawk_stormcloud
     Icon:
       Material: BRICK
       CustomModelData: 2566
-      DisplayName: §5Stormcloud Wolfhawk
+      DisplayName: §5風暴猛狼鷹
       Lore:
-      - §fGet your pet Stormcloud Wolfhawk!
+      - §f獲得你的寵物風暴猛狼鷹！
