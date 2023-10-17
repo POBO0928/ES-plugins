@@ -8,11 +8,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §2Green Wyvern
+  Name: §2綠色飛龍
   Material: BRICK
   CustomModelData: 2568
   Description:
-  - §fGet your pet Green Wyvern!
+  - §f獲得你的寵物綠色飛龍！
 Signals:
   Values:
   - DASH
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2568
-      DisplayName: §2Green Wyvern
+      DisplayName: §2綠色飛龍
       Lore:
-      - §fGet your pet Green Wyvern!
+      - §f獲得你的寵物綠色飛龍！
   Wyvern_Ender:
     MythicMob: Wyvern_Ender
     Permission: skin.wyvern_ender
     Icon:
       Material: BRICK
       CustomModelData: 2567
-      DisplayName: §5Ender Wyvern
+      DisplayName: §5終界飛龍
       Lore:
-      - §fGet your pet Ender Wyvern!
+      - §f獲得你的寵物終界飛龍！
   Wyvern_Inferno:
     MythicMob: Wyvern_Inferno
     Permission: skin.wyvern_inferno
     Icon:
       Material: BRICK
       CustomModelData: 2569
-      DisplayName: §cInferno Wyvern
+      DisplayName: §c烈焰飛龍
       Lore:
-      - §fGet your pet Inferno Wyvern!
+      - §f獲得你的寵物烈焰飛龍！
   Wyvern_Undead:
     MythicMob: Wyvern_Undead
     Permission: skin.wyvern_undead
     Icon:
       Material: BRICK
       CustomModelData: 2570
-      DisplayName: §3Undead Wyvern
+      DisplayName: §3不死飛龍
       Lore:
-      - §fGet your pet Undead Wyvern!
+      - §f獲得你的寵物不死飛龍！
