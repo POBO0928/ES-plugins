@@ -7,18 +7,18 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §4Phoenix
+  Name: §4鳳凰
   Material: BRICK
   CustomModelData: 3512
   Description:
-  - §fGet your pet Phoenix!
+  - §f獲得您的寵物鳳凰！
   - ''
-  - §f[§4Burning path§f]
-  - §fYour Phoenix dashes towards its enemy,
-  - §fleaving a path of fire.
+  - §f[§4燃燒之路§f]
+  - §f您的鳳凰向敵人衝刺，
+  - §f留下一條火路。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -30,7 +30,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -42,10 +42,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -57,10 +57,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6升級！您的寵物現在是&d史詩&6等級！'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳說
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6升級！您的寵物現在是&e傳說&6等級！'
       Type: CHAT
