@@ -7,11 +7,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bRed Raptor
+  Name: §b暴龍
   Material: BRICK
   CustomModelData: 2543
   Description:
-  - §fGet your pet Red Raptor!
+  - §f獲得你的寵物暴龍！
 Signals:
   Values:
   - DASH
@@ -25,24 +25,24 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2543
-      DisplayName: §cRed Raptor
+      DisplayName: §c暴龍
       Lore:
-      - §fGet your pet Red Raptor!
+      - §f獲得你的寵物暴龍！
   Raptor_Nightmare:
     MythicMob: Raptor_Nightmare
     Permission: skin.raptor_nightmare
     Icon:
       Material: BRICK
       CustomModelData: 2542
-      DisplayName: §4Nightmare Raptor
+      DisplayName: §4夢魘暴龍
       Lore:
-      - §fGet your pet Nightmare Raptor!
+      - §f獲得你的寵物夢魘暴龍！
   Raptor_Undead:
     MythicMob: Raptor_Undead
     Permission: skin.raptor_undead
     Icon:
       Material: BRICK
       CustomModelData: 2544
-      DisplayName: §3Undead Raptor
+      DisplayName: §3不死暴龍
       Lore:
-      - §fGet your pet Undead Raptor!
+      - §f獲得你的寵物不死暴龍！
