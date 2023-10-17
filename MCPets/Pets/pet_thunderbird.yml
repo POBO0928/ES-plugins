@@ -7,19 +7,18 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §bThunderbird
+  Name: §b雷鳥
   Material: BRICK
   CustomModelData: 3519
   Description:
-  - §fGet your pet Thunderbird!
+  - §f獲得你的雷鳥寵物！
   - ''
-  - §f[§bSpark ball§f]
-  - §fYour Thunderbird fires a ball of thunder,
-  - §fcreating a chain of lightning between
-  - §fnearby enemies.
+  - §f[§b雷電球§f]
+  - §f你的雷鳥發射一顆雷電球，
+  - §f在附近的敵人之間創建一道閃電鏈。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -31,7 +30,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -43,10 +42,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6升級了！你的寵物現在是&a稀有&6等級！'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -58,10 +57,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6升級了！你的寵物現在是&d史詩&6等級！'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳奇
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -73,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6升級了！你的寵物現在是&e傳奇&6等級！'
       Type: CHAT
