@@ -8,11 +8,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bJade Sky Serpent
+  Name: §b翡翠天空巨蛇
   Material: BRICK
   CustomModelData: 2545
   Description:
-  - §fGet your pet Jade Sky Serpent!
+  - §f獲得你的寵物翡翠天空巨蛇！
 Signals:
   Values:
   - DASH
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2545
-      DisplayName: §aJade Sky Serpent
+      DisplayName: §a翡翠天空巨蛇
       Lore:
-      - §fGet your pet Jade Sky Serpent!
+      - §f獲得你的寵物翡翠天空巨蛇！
   Sky_Serpent_Magma:
     MythicMob: Sky_Serpent_Magma
     Permission: skin.sky_serpent_magma
     Icon:
       Material: BRICK
       CustomModelData: 2546
-      DisplayName: §4Magma Sky Serpent
+      DisplayName: §4熔岩天空巨蛇
       Lore:
-      - §fGet your pet Magma Sky Serpent!
+      - §f獲得你的寵物熔岩天空巨蛇！
   Sky_Serpent_Solar:
     MythicMob: Sky_Serpent_Solar
     Permission: skin.sky_serpent_solar
     Icon:
       Material: BRICK
       CustomModelData: 2547
-      DisplayName: §eSolar Sky Serpent
+      DisplayName: §e太陽天空巨蛇
       Lore:
-      - §fGet your pet Solar Sky Serpent!
+      - §f獲得你的寵物太陽天空巨蛇！
   Sky_Serpent_Spectral:
     MythicMob: Sky_Serpent_Spectral
     Permission: skin.sky_serpent_spectral
     Icon:
       Material: BRICK
       CustomModelData: 2548
-      DisplayName: §bSpectral Sky Serpent
+      DisplayName: §b幻影天空巨蛇
       Lore:
-      - §fGet your pet Spectral Sky Serpent!
+      - §f獲得你的寵物幻影天空巨蛇！
