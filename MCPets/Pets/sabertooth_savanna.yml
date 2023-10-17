@@ -7,11 +7,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bSavanna Sabertooth
+  Name: §b非洲草原劍齒虎
   Material: BRICK
   CustomModelData: 2513
   Description:
-  - §fGet your pet Savanna Sabertooth!
+  - §f獲得你的寵物非洲草原劍齒虎！
 Signals:
   Values:
   - DASH
@@ -25,24 +25,24 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2513
-      DisplayName: §6Savanna Sabertooth
+      DisplayName: §6非洲草原劍齒虎
       Lore:
-      - §fGet your pet Savanna Sabertooth!
+      - §f獲得你的寵物非洲草原劍齒虎！
   Sabertooth_Arctic:
     MythicMob: Sabertooth_Arctic
     Permission: skin.sabertooth_arctic
     Icon:
       Material: BRICK
       CustomModelData: 2511
-      DisplayName: §bArctic Sabertooth
+      DisplayName: §b北極劍齒虎
       Lore:
-      - §fGet your pet Arctic Sabertooth!
+      - §f獲得你的寵物北極劍齒虎！
   Sabertooth_Midnight:
     MythicMob: Sabertooth_Midnight
     Permission: skin.sabertooth_midnight
     Icon:
       Material: BRICK
       CustomModelData: 2512
-      DisplayName: §9Midnight Sabertooth
+      DisplayName: §9午夜劍齒虎
       Lore:
-      - §fGet your pet Midnight Sabertooth!
+      - §f獲得你的寵物午夜劍齒虎！
