@@ -7,17 +7,17 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §bSpirit Fox
+  Name: §b靈狐
   Material: BRICK
   CustomModelData: 3517
   Description:
-  - §fGet your pet Spirit Fox!
+  - §f獲得你的靈狐寵物！
   - ''
-  - §f[§bSoul Haste§f]
-  - §fYour Spirit Fox gives you a speed buff.
+  - §f[§b靈魂加速§f]
+  - §f你的靈狐將給你一個速度加成。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -29,7 +29,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -41,10 +41,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6升級了！你的寵物現在是&a稀有&6等級！'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -56,10 +56,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6升級了！你的寵物現在是&d史詩&6等級！'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳奇
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -71,5 +71,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6升級了！你的寵物現在是&e傳奇&6等級！'
       Type: CHAT
