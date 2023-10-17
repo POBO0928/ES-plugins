@@ -41,7 +41,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&a稀有&6等級！
+      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
