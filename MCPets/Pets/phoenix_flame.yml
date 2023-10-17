@@ -8,11 +8,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bPhoenix
+  Name: §b鳳凰
   Material: BRICK
   CustomModelData: 2532
   Description:
-  - §fGet your pet Phoenix!
+  - §f獲得你的寵物鳳凰！
 Signals:
   Values:
   - DASH
@@ -26,34 +26,34 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2532
-      DisplayName: §cPhoenix
+      DisplayName: §c鳳凰
       Lore:
-      - §fGet your pet Phoenix!
+      - §f獲得你的寵物鳳凰！
   Phoenix_Darkflame:
     MythicMob: Phoenix_Darkflame
     Permission: skin.phoenix_darkflame
     Icon:
       Material: BRICK
       CustomModelData: 2531
-      DisplayName: §3Darkflame Phoenix
+      DisplayName: §3暗焰鳳凰
       Lore:
-      - §fGet your pet Darkflame Phoenix!
+      - §f獲得你的寵物暗焰鳳凰！
   Phoenix_Light:
     MythicMob: Phoenix_Light
     Permission: skin.phoenix_light
     Icon:
       Material: BRICK
       CustomModelData: 2533
-      DisplayName: §eLight Phoenix
+      DisplayName: §e光明鳳凰
       Lore:
-      - §fGet your pet Light Phoenix!
+      - §f獲得你的寵物光明鳳凰！
   Phoenix_Thunder:
     MythicMob: Phoenix_Thunder
     Permission: skin.phoenix_thunder
     Icon:
       Material: BRICK
       CustomModelData: 2534
-      DisplayName: §bThunder Phoenix
+      DisplayName: §b雷霆鳳凰
       Lore:
-      - §fGet your pet Thunder Phoenix!
+      - §f獲得你的寵物雷霆鳳凰！
 # 1222354326466351683720808
