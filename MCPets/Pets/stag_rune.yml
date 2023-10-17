@@ -7,11 +7,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bRune Stag
+  Name: §b符文鹿
   Material: BRICK
   CustomModelData: 2551
   Description:
-  - §fGet your pet Rune Stag!
+  - §f獲得你的寵物符文鹿！
 Signals:
   Values:
   - DASH
@@ -25,33 +25,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2551
-      DisplayName: §bRune Stag
+      DisplayName: §b符文鹿
       Lore:
-      - §fGet your pet Rune Stag!
+      - §f獲得你的寵物符文鹿！
   Stag_Heavenly:
     MythicMob: Stag_Heavenly
     Permission: skin.stag_heavenly
     Icon:
       Material: BRICK
       CustomModelData: 2550
-      DisplayName: §eHeavenly Stag
+      DisplayName: §e天堂鹿
       Lore:
-      - §fGet your pet Heavenly Stag!
+      - §f獲得你的寵物天堂鹿！
   Stag_Demonic:
     MythicMob: Stag_Demonic
     Permission: skin.stag_demonic
     Icon:
       Material: BRICK
       CustomModelData: 2549
-      DisplayName: §cDemonic Stag
+      DisplayName: §c惡魔鹿
       Lore:
-      - §fGet your pet Demonic Stag!
+      - §f獲得你的寵物惡魔鹿！
   Stag_Void:
     MythicMob: Stag_Void
     Permission: skin.stag_void
     Icon:
       Material: BRICK
       CustomModelData: 2552
-      DisplayName: §5Void Stag
+      DisplayName: §5虛空鹿
       Lore:
-      - §fGet your pet Void Stag!
+      - §f獲得你的寵物虛空鹿！
