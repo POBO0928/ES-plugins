@@ -8,11 +8,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bGhost Phantom
+  Name: §b鬼魅幻影
   Material: BRICK
   CustomModelData: 2530
   Description:
-  - §fGet your pet Ghost Phantom!
+  - §f獲得你的寵物鬼魅幻影！
 Signals:
   Values:
   - DASH
@@ -26,18 +26,18 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2530
-      DisplayName: §3Ghost Phantom
+      DisplayName: §3鬼魅幻影
       Lore:
-      - §fGet your pet Ghost Phantom!
+      - §f獲得你的寵物鬼魅幻影！
   Phantom_Ender:
     MythicMob: Phantom_Ender
     Permission: skin.phantom_ender
     Icon:
       Material: BRICK
       CustomModelData: 2529
-      DisplayName: §5Ender Phantom
+      DisplayName: §5終界幻影
       Lore:
-      - §fGet your pet Ender Phantom!
+      - §f獲得你的寵物終界幻影！
 
 # LgyLY#XkyNKu/NcdO0RKA3BN9Quagb1UWv/eMr8Y8EXCtlR0jPU9xfnGGgzHWq6Jm0nQDB
 
