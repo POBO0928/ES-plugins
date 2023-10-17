@@ -7,11 +7,11 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §bForest Tusker
+  Name: §b森林巨象
   Material: BRICK
   CustomModelData: 2562
   Description:
-  - §fGet your pet Forest Tusker!
+  - §f獲得你的寵物森林巨象！
 Signals:
   Values:
   - DASH
@@ -25,25 +25,25 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2562
-      DisplayName: §2Forest Tusker
+      DisplayName: §2森林巨象
       Lore:
-      - §fGet your pet Forest Tusker!
+      - §f獲得你的寵物森林巨象！
   Tusker_Dreamlight:
     MythicMob: Tusker_Dreamlight
     Permission: skin.tusker_dreamlight
     Icon:
       Material: BRICK
       CustomModelData: 2561
-      DisplayName: §bDreamlight Tusker
+      DisplayName: §b夢光巨象
       Lore:
-      - §fGet your pet Dreamlight Tusker!
+      - §f獲得你的寵物夢光巨象！
   Tusker_Demonic:
     MythicMob: Tusker_Demonic
     Permission: skin.tusker_demonic
     Icon:
       Material: BRICK
       CustomModelData: 2560
-      DisplayName: §4Demonic Tusker
+      DisplayName: §4惡魔巨象
       Lore:
-      - §fGet your pet Demonic Tusker!
+      - §f獲得你的寵物惡魔巨象！
 # wWOjpEe5p2Q2ZEdGhma5hlUvVlWzUERNRTSE5kMJRlT4RzVZNncwxEaJFmYIdjNONzQyk1M
