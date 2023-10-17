@@ -7,18 +7,18 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 3
 Icon:
-  Name: §7Lunar Wolf
+  Name: §7月狼
   Material: BRICK
   CustomModelData: 3510
   Description:
-  - §fGet your pet Lunar Wolf!
+  - §f獲得您的寵物月狼！
   - ''
-  - §f[§7Moon Shield§f]
-  - §fYour Lunar Wolf gives you a moon shield
-  - §fthat blocks any kind of attack.
+  - §f[§7月之盾§f]
+  - §f您的月狼賦予您一個月之盾
+  - §f可阻擋任何形式的攻擊。
 Levels:
   Lvl_Common:
-    Name: §fCommon
+    Name: §f普通
     ExperienceThreshold: 0
     MaxHealth: 100
     Regeneration: 0.1
@@ -30,7 +30,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
   Lvl_Rare:
-    Name: §aRare
+    Name: §a稀有
     ExperienceThreshold: 500
     MaxHealth: 150
     Regeneration: 0.12
@@ -42,10 +42,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &aRare &6level!'
+      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
       Type: CHAT
   Lvl_Epic:
-    Name: §dEpic
+    Name: §d史詩
     ExperienceThreshold: 2000
     MaxHealth: 200
     Regeneration: 0.14
@@ -57,10 +57,10 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &dEpic &6level!'
+      Text: '&6升級！您的寵物現在是&d史詩&6等級！'
       Type: CHAT
   Lvl_Legendary:
-    Name: §eLegendary
+    Name: §e傳說
     ExperienceThreshold: 5000
     MaxHealth: 300
     Regeneration: 0.2
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6Level up! Your pet is now &eLegendary &6level!'
+      Text: '&6升級！您的寵物現在是&e傳說&6等級！'
       Type: CHAT
