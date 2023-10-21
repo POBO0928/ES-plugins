@@ -1,7 +1,7 @@
 
 # Name which will be displayed
 # when opening the station
-name: 'Mythical Forge (#page#/#max#)'
+name: '神奇鍛造工坊 (#page#/#max#)'
 
 # The maximum amount of items in the crafting queue ie. the
 # max number of items players are able to craft simultaneously.
@@ -29,10 +29,10 @@ items:
         material: AIR
     no-recipe:
         material: GRAY_STAINED_GLASS_PANE
-        name: '&aNo Recipe'
+        name: '&a尚無製作方法'
     no-queue-item:
         material: GRAY_STAINED_GLASS_PANE
-        name: '&aNo Item in Queue'
+        name: '&a無佇列物品'
 
 # Station recipes
 recipes:

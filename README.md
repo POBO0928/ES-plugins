@@ -1,7 +1,7 @@
 # ES-plugins
 # 養老伺服器 插件翻譯文檔
 
-**目前正在進行翻譯的項目：** MCPets (language)
+**目前正在進行翻譯的項目：** MMOItems (item 資料夾) **※需要人手幫忙**
 
 **已完成翻譯但尚未檢查：** Vegas (message 資料夾)
 

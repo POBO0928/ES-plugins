@@ -25,10 +25,10 @@ items:
         material: AIR
     no-recipe:
         material: GRAY_STAINED_GLASS_PANE
-        name: '&aNo Recipe'
+        name: '&a尚無製作方法'
     no-queue-item:
         material: GRAY_STAINED_GLASS_PANE
-        name: '&aNo Item in Queue'
+        name: '&a無佇列物品'
 
 # Station recipes
 recipes:
