@@ -11,11 +11,11 @@ Icon:
   Material: BRICK
   CustomModelData: 3521
   Description:
-  - §f獲得你的風龍寵物！
+  - §f點擊獲得你的【風龍】！
   - ''
   - §f[§f龍捲風§f]
   - §f你的風龍發射一個龍捲風，
-  - §f將附近的敵人拉進來。
+  - §f將附近的敵人牽引近來。
 Levels:
   Lvl_Common:
     Name: §f普通
@@ -42,7 +42,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級了！你的寵物現在是&a稀有&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
@@ -57,7 +57,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級了！你的寵物現在是&d史詩&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
     Name: §e傳奇
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級了！你的寵物現在是&e傳奇&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a傳奇 &6!'
       Type: CHAT

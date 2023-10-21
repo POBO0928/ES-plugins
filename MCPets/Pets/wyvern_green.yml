@@ -12,12 +12,12 @@ Icon:
   Material: BRICK
   CustomModelData: 2568
   Description:
-  - §f獲得你的寵物綠色飛龍！
+  - §f點擊取得寵物【綠色飛龍】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Wyvern_Green:
@@ -28,7 +28,7 @@ Skins:
       CustomModelData: 2568
       DisplayName: §2綠色飛龍
       Lore:
-      - §f獲得你的寵物綠色飛龍！
+      - §f點擊取得寵物【綠色飛龍】！
   Wyvern_Ender:
     MythicMob: Wyvern_Ender
     Permission: skin.wyvern_ender
@@ -37,7 +37,7 @@ Skins:
       CustomModelData: 2567
       DisplayName: §5終界飛龍
       Lore:
-      - §f獲得你的寵物終界飛龍！
+      - §f點擊取得寵物【終界飛龍】！
   Wyvern_Inferno:
     MythicMob: Wyvern_Inferno
     Permission: skin.wyvern_inferno
@@ -46,7 +46,7 @@ Skins:
       CustomModelData: 2569
       DisplayName: §c烈焰飛龍
       Lore:
-      - §f獲得你的寵物烈焰飛龍！
+      - §f點擊取得寵物【烈焰飛龍】！
   Wyvern_Undead:
     MythicMob: Wyvern_Undead
     Permission: skin.wyvern_undead
@@ -55,4 +55,4 @@ Skins:
       CustomModelData: 2570
       DisplayName: §3不死飛龍
       Lore:
-      - §f獲得你的寵物不死飛龍！
+      - §f點擊取得寵物【不死飛龍】！

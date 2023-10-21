@@ -1,7 +1,7 @@
 
 # Name which will be displayed
 # when opening the station
-name: 'Arcane Forge (#page#/#max#)'
+name: '奧術鍛造 (#page#/#max#)'
 
 # The maximum amount of items in the crafting queue ie. the
 # max number of items players are able to craft simultaneously.

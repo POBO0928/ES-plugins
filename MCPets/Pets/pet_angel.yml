@@ -41,7 +41,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6階級提升! 你的寵物階級現在為 &a稀有 &6!'
+      Text: '&6階級提升!你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
@@ -56,7 +56,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6階級提升! 你的寵物階級現在為 &d史詩 &6!'
+      Text: '&6階級提升!你的寵物階級現在為 &d史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
     Name: §e傳說
@@ -71,5 +71,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6階級提升! 你的寵物階級現在為 &e傳說 &6!'
+      Text: '&6階級提升!你的寵物階級現在為 &e傳說 &6!'
       Type: CHAT

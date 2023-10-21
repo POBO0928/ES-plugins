@@ -12,12 +12,12 @@ Icon:
   Material: BRICK
   CustomModelData: 2530
   Description:
-  - §f獲得你的寵物鬼魅幻影！
+  - §f點擊取得寵物【鬼魅幻影】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Phantom_Ghost:
@@ -28,7 +28,7 @@ Skins:
       CustomModelData: 2530
       DisplayName: §3鬼魅幻影
       Lore:
-      - §f獲得你的寵物鬼魅幻影！
+      - §f點擊取得寵物【鬼魅幻影】！
   Phantom_Ender:
     MythicMob: Phantom_Ender
     Permission: skin.phantom_ender
@@ -37,7 +37,7 @@ Skins:
       CustomModelData: 2529
       DisplayName: §5終界幻影
       Lore:
-      - §f獲得你的寵物終界幻影！
+      - §f點擊取得寵物【終界幻影】！
 
 # LgyLY#XkyNKu/NcdO0RKA3BN9Quagb1UWv/eMr8Y8EXCtlR0jPU9xfnGGgzHWq6Jm0nQDB
 

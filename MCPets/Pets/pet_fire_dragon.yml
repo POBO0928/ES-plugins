@@ -11,7 +11,7 @@ Icon:
   Material: BRICK
   CustomModelData: 3505
   Description:
-  - §f獲得您的寵物火龍！
+  - §f點擊獲得你的【火龍】！
   - ''
   - §f[§4火球§f]
   - §f您的火龍會朝敵人發射火球。
@@ -41,7 +41,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
@@ -56,7 +56,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&d史詩&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
     Name: §e傳說
@@ -71,5 +71,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&e傳說&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a傳奇 &6!'
       Type: CHAT

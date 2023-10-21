@@ -12,12 +12,12 @@ Icon:
   Material: BRICK
   CustomModelData: 2532
   Description:
-  - §f獲得你的寵物鳳凰！
+  - §f點擊取得寵物【鳳凰】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Phoenix_Flame:
@@ -28,7 +28,7 @@ Skins:
       CustomModelData: 2532
       DisplayName: §c鳳凰
       Lore:
-      - §f獲得你的寵物鳳凰！
+      - §f點擊取得寵物【鳳凰】！
   Phoenix_Darkflame:
     MythicMob: Phoenix_Darkflame
     Permission: skin.phoenix_darkflame
@@ -37,16 +37,16 @@ Skins:
       CustomModelData: 2531
       DisplayName: §3暗焰鳳凰
       Lore:
-      - §f獲得你的寵物暗焰鳳凰！
+      - §f點擊取得寵物【暗焰鳳凰】！
   Phoenix_Light:
     MythicMob: Phoenix_Light
     Permission: skin.phoenix_light
     Icon:
       Material: BRICK
       CustomModelData: 2533
-      DisplayName: §e光明鳳凰
+      DisplayName: §e光輝鳳凰
       Lore:
-      - §f獲得你的寵物光明鳳凰！
+      - §f點擊取得寵物【光輝鳳凰】！
   Phoenix_Thunder:
     MythicMob: Phoenix_Thunder
     Permission: skin.phoenix_thunder
@@ -55,5 +55,5 @@ Skins:
       CustomModelData: 2534
       DisplayName: §b雷霆鳳凰
       Lore:
-      - §f獲得你的寵物雷霆鳳凰！
+      - §f點擊取得寵物【雷霆鳳凰】！
 # 1222354326466351683720808

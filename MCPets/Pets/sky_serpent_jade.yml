@@ -8,16 +8,16 @@ DismountOnDamaged: false
 SpawnRange: 3
 ComingBackRange: 10
 Icon:
-  Name: §b翡翠天空巨蛇
+  Name: §b玉天蛇
   Material: BRICK
   CustomModelData: 2545
   Description:
-  - §f獲得你的寵物翡翠天空巨蛇！
+  - §f點擊取得寵物【玉天蛇】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Sky_Serpent_Jade:
@@ -26,33 +26,33 @@ Skins:
     Icon:
       Material: BRICK
       CustomModelData: 2545
-      DisplayName: §a翡翠天空巨蛇
+      DisplayName: §a玉天蛇
       Lore:
-      - §f獲得你的寵物翡翠天空巨蛇！
+      - §f點擊取得寵物【玉天蛇】！
   Sky_Serpent_Magma:
     MythicMob: Sky_Serpent_Magma
     Permission: skin.sky_serpent_magma
     Icon:
       Material: BRICK
       CustomModelData: 2546
-      DisplayName: §4熔岩天空巨蛇
+      DisplayName: §4熔岩玉天蛇
       Lore:
-      - §f獲得你的寵物熔岩天空巨蛇！
+      - §f點擊取得寵物【熔岩玉天蛇】！
   Sky_Serpent_Solar:
     MythicMob: Sky_Serpent_Solar
     Permission: skin.sky_serpent_solar
     Icon:
       Material: BRICK
       CustomModelData: 2547
-      DisplayName: §e太陽天空巨蛇
+      DisplayName: §e天空巨蛇
       Lore:
-      - §f獲得你的寵物太陽天空巨蛇！
+      - §f點擊取得寵物【天空巨蛇】！
   Sky_Serpent_Spectral:
     MythicMob: Sky_Serpent_Spectral
     Permission: skin.sky_serpent_spectral
     Icon:
       Material: BRICK
       CustomModelData: 2548
-      DisplayName: §b幻影天空巨蛇
+      DisplayName: §b幻天巨蛇
       Lore:
-      - §f獲得你的寵物幻影天空巨蛇！
+      - §f點擊取得寵物【幻天巨蛇】！

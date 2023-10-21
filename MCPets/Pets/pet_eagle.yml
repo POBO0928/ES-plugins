@@ -11,7 +11,7 @@ Icon:
   Material: BRICK
   CustomModelData: 3504
   Description:
-  - §f獲得您的寵物鷹!
+  - §f點擊獲得你的【鷹】！
   - ''
   - §f[§6疾衝§f]
   - §f您的鷹向敵人疾衝，使其升空。
@@ -41,7 +41,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
@@ -56,7 +56,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&d史詩&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
     Name: §e傳說
@@ -71,5 +71,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&e傳說&6等級！'
+      Text:'&6階級提升!你的寵物階級現在為 &a傳奇 &6!'
       Type: CHATs

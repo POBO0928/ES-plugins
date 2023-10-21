@@ -11,12 +11,12 @@ Icon:
   Material: BRICK
   CustomModelData: 2543
   Description:
-  - §f獲得你的寵物暴龍！
+  - §f點擊取得寵物【暴龍】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Raptor_Red:
@@ -27,7 +27,7 @@ Skins:
       CustomModelData: 2543
       DisplayName: §c暴龍
       Lore:
-      - §f獲得你的寵物暴龍！
+      - §f點擊取得寵物【信標羽毛】！
   Raptor_Nightmare:
     MythicMob: Raptor_Nightmare
     Permission: skin.raptor_nightmare
@@ -36,7 +36,7 @@ Skins:
       CustomModelData: 2542
       DisplayName: §4夢魘暴龍
       Lore:
-      - §f獲得你的寵物夢魘暴龍！
+      - §f點擊取得寵物【夢魘暴龍】！
   Raptor_Undead:
     MythicMob: Raptor_Undead
     Permission: skin.raptor_undead
@@ -45,4 +45,4 @@ Skins:
       CustomModelData: 2544
       DisplayName: §3不死暴龍
       Lore:
-      - §f獲得你的寵物不死暴龍！
+      - §f點擊取得寵物【不死暴龍】！

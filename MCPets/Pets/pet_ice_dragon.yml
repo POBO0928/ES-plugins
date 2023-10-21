@@ -11,7 +11,7 @@ Icon:
   Material: BRICK
   CustomModelData: 3508
   Description:
-  - §f獲得您的寵物冰龍！
+  - §f點擊獲得你的【冰龍】！
   - ''
   - §f[§b冰之吐息§f]
   - §f您的冰龍呼出寒冷的空氣，
@@ -42,7 +42,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&a稀有&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a稀有 &6!'
       Type: CHAT
   Lvl_Epic:
     Name: §d史詩
@@ -57,7 +57,7 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&d史詩&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a史詩 &6!'
       Type: CHAT
   Lvl_Legendary:
     Name: §e傳說
@@ -72,5 +72,5 @@ Levels:
       Revoke: 0
     InventoryExtension: 0
     Announcement:
-      Text: '&6升級！您的寵物現在是&e傳說&6等級！'
+      Text: '&6階級提升!你的寵物階級現在為 &a傳奇 &6!'
       Type: CHAT

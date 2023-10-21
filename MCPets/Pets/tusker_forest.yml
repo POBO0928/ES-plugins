@@ -11,12 +11,12 @@ Icon:
   Material: BRICK
   CustomModelData: 2562
   Description:
-  - §f獲得你的寵物森林巨象！
+  - §f點擊取得寵物【森林巨象】！
 Signals:
   Values:
   - DASH
   Item:
-    Name: §bSignal Feather
+    Name: §b信標羽毛
     Material: FEATHER
 Skins:
   Tusker_Forest:
@@ -27,7 +27,7 @@ Skins:
       CustomModelData: 2562
       DisplayName: §2森林巨象
       Lore:
-      - §f獲得你的寵物森林巨象！
+      - §f點擊取得寵物【森林巨象】！
   Tusker_Dreamlight:
     MythicMob: Tusker_Dreamlight
     Permission: skin.tusker_dreamlight
@@ -36,7 +36,7 @@ Skins:
       CustomModelData: 2561
       DisplayName: §b夢光巨象
       Lore:
-      - §f獲得你的寵物夢光巨象！
+      - §f點擊取得寵物【夢光巨象】！
   Tusker_Demonic:
     MythicMob: Tusker_Demonic
     Permission: skin.tusker_demonic
@@ -45,5 +45,5 @@ Skins:
       CustomModelData: 2560
       DisplayName: §4惡魔巨象
       Lore:
-      - §f獲得你的寵物惡魔巨象！
+      - §f點擊取得寵物【惡魔巨象】！
 # wWOjpEe5p2Q2ZEdGhma5hlUvVlWzUERNRTSE5kMJRlT4RzVZNncwxEaJFmYIdjNONzQyk1M
