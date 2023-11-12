@@ -45,8 +45,8 @@ recipes:
         conditions:
         - 'level{level=24}'
         ingredients:
-        - mmoitem{type=MISCELLANEOUS,id=HUMAN_SOUL,amount=8,display="Human Soul"}
-        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="Steel Sword"}
+        - mmoitem{type=MISCELLANEOUS,id=HUMAN_SOUL,amount=8,display="人類靈魂"}
+        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="鋼劍"}
     fire-essence:
         output:
             type: MATERIAL
@@ -56,7 +56,7 @@ recipes:
         conditions:
         - 'level{level=15}'
         ingredients:
-        - vanilla{type=BLAZE_POWDER,amount=4,display="Blaze Powder"}
+        - vanilla{type=BLAZE_POWDER,amount=4,display="火焰粉末"}
     fire-totem:
         output:
             type: CATALYST
@@ -66,9 +66,9 @@ recipes:
         conditions:
         - 'level{level=10}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=8,display="Fire Essence"}
-        - vanilla{type=BLAZE_ROD,amount=1,display="Blaze Rod"}
-        - vanilla{type=BLAZE_POWDER,amount=4,display="Blaze Powder"}
+        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=8,display="炎之精華"}
+        - vanilla{type=BLAZE_ROD,amount=1,display="烈焰棒"}
+        - vanilla{type=BLAZE_POWDER,amount=4,display="火焰粉末"}
     blaze-soul:
         output:
             type: GEM_STONE
@@ -78,7 +78,7 @@ recipes:
         conditions:
         - 'level{level=12}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=5,display="Fire Essence"}
+        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=5,display="火焰精華"}
     hell-bow:
         output:
             type: BOW
@@ -88,8 +88,8 @@ recipes:
         conditions:
         - 'level{level=24}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=2,display="Fire Essence"}
-        - vanilla{type=BOW,amount=1,display="Bow"}
+        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=2,display="火焰精華"}
+        - vanilla{type=BOW,amount=1,display="弓"}
     fire-greatlance:
         output:
             type: LANCE
@@ -99,7 +99,7 @@ recipes:
         conditions:
         - 'level{level=30}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=4,display="Fire Essence"}
+        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=4,display="火焰精華"}
     molten-blade:
         output:
             type: GREATSWORD
@@ -109,8 +109,8 @@ recipes:
         conditions:
         - 'level{level=20}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=13,display="Fire Essence"}
-        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="Steel Sword"}
+        - mmoitem{type=MATERIAL,id=FIRE_ESSENCE,amount=13,display="火焰精華"}
+        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="鋼劍"}
     wither-essence:
         output:
             type: MATERIAL
@@ -130,8 +130,8 @@ recipes:
         conditions:
         - 'level{level=20}'
         ingredients:
-        - vanilla{type=BOW,amount=1,display="Bow"}
-        - mmoitem{type=MATERIAL,id=WITHER_ESSENCE,amount=1,display="Wither Essence"}
+        - vanilla{type=BOW,amount=1,display="弓"}
+        - mmoitem{type=MATERIAL,id=WITHER_ESSENCE,amount=1,display="凋零精華"}
     cursed-wither-skull:
         output:
             type: ARMOR
@@ -142,7 +142,7 @@ recipes:
         - 'level{level=15}'
         ingredients:
         - vanilla{type=IRON_HELMET}
-        - mmoitem{type=MATERIAL,id=WITHER_ESSENCE,amount=1,display="Wither Essence"}
+        - mmoitem{type=MATERIAL,id=WITHER_ESSENCE,amount=1,display="凋零精華"}
     dead-pharaoh-helmet:
         output:
             type: ARMOR

@@ -41,7 +41,7 @@ recipes:
         conditions:
         - 'level{level=5}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=3,display="Magic Fragment"}
+        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=3,display="魔法碎片"}
     arcane-helmet:
         output:
             type: ARMOR
@@ -51,7 +51,7 @@ recipes:
         conditions:
         - 'level{level=4}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=6,display="Magic Fragment"}
+        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=6,display="魔法碎片"}
     steel-chestplate:
         output:
             type: ARMOR
@@ -61,7 +61,7 @@ recipes:
         conditions:
         - 'level{level=4}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=9,display="Magic Fragment"}
+        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=9,display="魔法碎片"}
     steel-leggings:
         output:
             type: ARMOR
@@ -71,7 +71,7 @@ recipes:
         conditions:
         - 'level{level=4}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=8,display="Magic Fragment"}
+        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=8,display="魔法碎片"}
     steel-boots:
         output:
             type: ARMOR
@@ -81,4 +81,4 @@ recipes:
         conditions:
         - 'level{level=4}'
         ingredients:
-        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=5,display="Magic Fragment"}
+        - mmoitem{type=MATERIAL,id=MAGIC_FRAGMENT,amount=5,display="魔法碎片"}

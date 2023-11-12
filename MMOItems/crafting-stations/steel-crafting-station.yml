@@ -57,8 +57,8 @@ recipes:
         # Ingredients needed for the recipe
         # Available properties: type, id, amount, display, level (optional)
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=2,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="鋼錠"}
+        - vanilla{type=STICK,amount=2,display="木棍"}
     steel-sword-upgrade:
         item:
             type: SWORD
@@ -66,7 +66,7 @@ recipes:
         conditions:
         - level{level=5}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="鋼錠"}
     two-handed-steel-sword:
         output:
             type: GREATSWORD
@@ -76,8 +76,8 @@ recipes:
         conditions:
         - level{level=8}
         ingredients:
-        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="Steel Sword"}
-        - vanilla{type=STICK,amount=4,display="Wooden Stick"}
+        - mmoitem{type=SWORD,id=STEEL_SWORD,amount=1,display="鋼劍"}
+        - vanilla{type=STICK,amount=4,display="木棍"}
     katana:
         output:
             type: SWORD
@@ -87,9 +87,9 @@ recipes:
         conditions:
         - level{level=15}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=6,display="Steel Ingot"}
-        - vanilla{type=IRON_INGOT,amount=2,display="Iron Ingot"}
-        - vanilla{type=STICK,amount=3,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=6,display="鋼錠"}
+        - vanilla{type=IRON_INGOT,amount=2,display="鐵錠"}
+        - vanilla{type=STICK,amount=3,display="木棍"}
     steel-helmet:
         output:
             type: ARMOR
@@ -99,7 +99,7 @@ recipes:
         conditions:
         - level{level=8}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=6,display="Steel Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=6,display="鋼錠"}
     steel-chestplate:
         output:
             type: ARMOR
@@ -109,7 +109,7 @@ recipes:
         conditions:
         - level{level=8}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=9,display="Steel Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=9,display="鋼錠"}
     steel-leggings:
         output:
             type: ARMOR
@@ -119,7 +119,7 @@ recipes:
         conditions:
         - level{level=8}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=8,display="Steel Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=8,display="鋼錠"}
     steel-boots:
         output:
             type: ARMOR
@@ -129,7 +129,7 @@ recipes:
         conditions:
         - level{level=8}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=5,display="Steel Ingot"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=5,display="鋼錠"}
     steel-ingot:
         output:
             type: MATERIAL
@@ -137,7 +137,7 @@ recipes:
             amount: 3
         crafting-time: 2
         ingredients:
-        - vanilla{type=IRON_INGOT,amount=4,display="Iron Ingot"}
+        - vanilla{type=IRON_INGOT,amount=4,display="鐵錠"}
     steel-dagger:
         output:
             type: DAGGER
@@ -147,8 +147,8 @@ recipes:
         conditions:
         - level{level=20}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=2,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="鋼錠"}
+        - vanilla{type=STICK,amount=2,display="木棒"}
     hardened-steel-claymore:
         output:
             type: GREATSWORD
@@ -158,8 +158,8 @@ recipes:
         conditions:
         - level{level=13}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=15,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=4,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=15,display="鋼錠"}
+        - vanilla{type=STICK,amount=4,display="木棒"}
     stiff-greatstaff:
         output:
             type: GREATSTAFF
@@ -168,8 +168,8 @@ recipes:
         conditions:
         - level{level=6}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=10,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="鋼錠"}
+        - vanilla{type=STICK,amount=10,display="木棒"}
     steel-pickaxe:
         output:
             type: TOOL
@@ -178,8 +178,8 @@ recipes:
         conditions:
         - level{level=6}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=3,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=4,display="鋼錠"}
+        - vanilla{type=STICK,amount=3,display="木棒"}
     steel-shovel:
         output:
             type: TOOL
@@ -188,5 +188,5 @@ recipes:
         conditions:
         - level{level=6}
         ingredients:
-        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=2,display="Steel Ingot"}
-        - vanilla{type=STICK,amount=3,display="Wooden Stick"}
+        - mmoitem{type=MATERIAL,id=STEEL_INGOT,amount=2,display="鋼錠"}
+        - vanilla{type=STICK,amount=3,display="木棒"}
