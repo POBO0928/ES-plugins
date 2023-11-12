@@ -1,15 +1,15 @@
 sharp:
     chance: 0.3
-    prefix: '&fSharp'
+    prefix: '&f豎琴'
     stats:
         attack-damage: 3
         lore:
-        - '&7Much sharper!'
+        - '&7更加鋒利!'
 
 fiery:
     chance: 0.1
     prefix:
-        format: '&cFiery'
+        format: '&c火熱'
         priority: 1
     stats:
         ability:
@@ -19,7 +19,7 @@ fiery:
 
 # Lucky modifier which grants more crit chance
 lucky:
-    prefix: '&fLucky'
+    prefix: '&f幸運'
     stats:
         critical-strike-chance:
             base: 9
@@ -28,7 +28,7 @@ lucky:
 
 # Gives more man mana
 arcane:
-    suffix: '&fof the Arcane'
+    suffix: '&秘術'
     stats:
         max-mana:
             base: 6

@@ -23,7 +23,7 @@ DRAGON_HELMET:
           scale: 0.0
           spread: 0.07
           max-spread: 0.2
-    name: §5§lDragon Helmet
+    name: §5§l龍之頭盔
     enchants:
       fire_protection: 4.0
     lore:
