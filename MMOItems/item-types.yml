@@ -18,7 +18,7 @@ SWORD:
     display: IRON_SWORD:0
     
     # Name displayed in the item lore.
-    name: 'Sword'
+    name: '劍'
     
     # Template of an unidentified item.
     unident-item:

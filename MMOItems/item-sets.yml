@@ -14,7 +14,7 @@
 
 
 ARCANE:
-    name: '&2Arcane Set'
+    name: '&2祕法套裝'
     bonuses:
         '3':
             magic-damage: 20
