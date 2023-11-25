@@ -1,0 +1,151 @@
+# ** 訊息 **
+
+# 如果相同IP上的帳戶已經收到了給予所有物品的項目，應該寫什麼訊息？
+alt_message: "&d&l 【抽獎系統】 &c您的IP地址上的帳戶已經收到了來自給予所有的物品。"
+
+# 如果伺服器上已經有最大數量的箱子正在被打開，玩家應該收到什麼訊息？
+MonthlyCrate_Global_Limit_Message: "&d&l 【抽獎系統】 &c抱歉，伺服器上已經有最大數量的箱子正在同時打開，請稍後再試！"
+
+# 如果伺服器上已經有最大數量的袋子正在被打開，玩家應該收到什麼訊息？
+MonthlyCrate_Global_Pouch_Limit_Message: "&d&l 【抽獎系統】 &c抱歉，伺服器上已經有最大數量的袋子正在同時打開，請稍後再試！"
+
+# 如果玩家嘗試打開的箱子數量超過每個玩家的最大數量，應該收到什麼訊息？
+MonthlyCrate_Player_Limit_Message: "&d&l 【抽獎系統】 &c您已經放置了{opening_crates_now}個箱子，請等待至少一個箱子完成後再打開另一個！"
+
+Max_Inventory_Reached_Message: "&d&l 【抽獎系統】 &c您的背包已經太滿，無法打開該箱子。請確保有足夠的空間，然後重試。"
+
+# 如果玩家嘗試在太靠近另一個箱子的地方打開一個箱子，應該收到什麼訊息？
+Crate_Radius_Message: "&d&l 【抽獎系統】 &c您距離另一個正在打開的箱子太近，請遠離以打開您的箱子。"
+
+# 給予玩家命令給予/給予所有的虛擬鑰匙後，玩家應該收到什麼訊息？（%crate_name% ; %amount_given%）
+Player_Gets_MCrate_Message: "&d&l 【抽獎系統】 &5您已經獲得了x%amount_given% %crate_name%"
+
+# 玩家執行“ac give/giveall”命令後，應該收到什麼訊息？（%crate_name% ; %amount_given% ; %player%）
+Player_Executes_Crate_Command_Message: "&e&l 【抽獎系統】 &e已給予%amount_given% %crate_name%箱子給%player%！"
+
+# 給予玩家袋子後，玩家應該收到什麼訊息？（%pouch_name% ; %amount_given%）
+Player_Gets_Pouch_Message: "&d&l 【抽獎系統】 &5您已經獲得了x%amount_given% %pouch_name%"
+
+# 當玩家通過'/ac key give'命令接收到鑰匙時，應該顯示什麼訊息？
+Player_Gets_Key_Message: "&a您收到了（x%amount_given%）%key_name%"
+
+# 如果玩家將箱子放在錯誤的位置，應該收到什麼訊息？（僅在箱子配置中添加了OnlyPlaceableAt: "x，y，z"時有效）
+Crate_Placed_At_Wrong_Location: "&d&l 【抽獎系統】 &c您不能在這裡放置這個月度箱子。前往/warp crates以打開這個箱子！"
+
+# 如果玩家將袋子放在錯誤的位置，應該收到什麼訊息？（僅在袋子配置中添加了OnlyPlaceableAt: "x，y，z"時有效）
+Pouch_Placed_At_Wrong_Location: "&d&l 【抽獎系統】 &c您不能在這裡放置這個袋子。前往/warp crates以打開這個袋子！"
+
+# 玩家在打開月度箱子時執行被封鎖的命令時，應該收到什麼訊息？
+BlockedCommandMessage: "&d&l 【抽獎系統】 &c在打開月度箱子時，您無法使用此命令！"
+
+# 當玩家右鍵點擊空氣中的月度箱子時，應該收到什麼訊息？保留為空不顯示任何內容
+Player_RightClick_Air:
+  - "&d&l 【抽獎系統】 &f請將月度箱子放在地上以打開它。"
+
+# 當玩家嘗試在太靠近另一個袋子的地方打開袋子時，應該收到什麼訊息？
+Pouch_Radius_Message: "&d&l 【抽獎系統】 &c您距離另一個正在打開的袋子太近，請遠離以打開您的袋子。"
+
+# 在成功重新加載後，/reload的命令執行者應該收到什麼訊息？
+Reload_Message: "&d&l 【抽獎系統】 &5配置已成功重新加載。"
+
+# 如果命令發送者沒有權限執行該命令，應該收到什麼訊息？
+No_Permission: "&d&l 【抽獎系統】 &c抱歉，您沒有適當的權限來執行此命令。"
+
+# 玩家嘗試打開一個箱子但沒有鑰匙時，右鍵點擊箱子時應該收到什麼訊息？（%crate%）
+No_Key_To_Open_Crate: "&c您沒有適當的鑰匙來打開這個箱子。"
+
+# 玩家嘗試打開箱子但鑰匙不足時，右鍵點擊箱子時應該收到什麼訊息？（%crate% ; %has_keys% ; %needed_keys%）
+Not_Enough_Keys: "&c您沒有足夠的鑰匙來打開這個箱子。此箱子需要%needed_keys%個鑰匙來打開。"
+
+# 玩家嘗試打開一個箱子但已經在打開另一個箱子時，右鍵點擊箱子時應該收到什麼訊息？
+Already_Opening_A_Crate: "&c請等待您完成打開另一個箱子後再打開新的箱子！"
+
+# 玩家使用“virtualkey give”命令給予箱子虛擬鑰匙後，應該收到什麼訊息？（%key_name% ; %amount_given%）
+Player_Gets_Virtualkey_Message: "&e&l 【抽獎系統】 &6您已經獲得了x%amount_given%虛擬%key_name%"
+
+# 當成功執行“/ac key gift”命令時，命令發送者應該收到什麼訊息？（%gifted_amount% ; %gifted_crate_name% ; %gifted_player_name%）
+Gifted_Keys: "&e&l 【抽獎系統】 &6您已成功贈送了x%gifted_amount% %gifted_crate_name%鑰匙給%gifted_player_name%！"
+
+# 當成功執行“/ac key gift”命令時，命令發送者應該收到什麼訊息？（%gifted_amount% ; %gifted_crate_name% ; %gifted_player_name%）
+Gift_Keys_Only_Players: "&e&l 【抽獎系統】 &c您只能向其他玩家贈送鑰匙！"
+
+# 收到贈送鑰匙的人應該收到什麼訊息？（%gifted_amount% ; %gifted_crate_name% ; %gifter_player_name%）
+Gifted_Keys_Received: "&e&l 【抽獎系統】 &6您已經從%gifter_player_name%收到了x%gifted_amount% %gifted_crate_name%鑰匙！"
+
+# 從虛擬鑰匙中成功提取鑰匙後，應該收到什麼訊息？（%amount_withdrawn% ; %crate_name% ; %player_name%）
+Virtualkey_Withdraw: "&e&l 【抽獎系統】 &6您已成功提取了%amount_withdrawn% %crate_name%鑰匙！"
+
+# 如果一個箱子已經由某人打開，並且該箱子的seeability選項設置為All，應該收到什麼訊息？
+Crate_Is_Already_Being_Opened: "&e&l 【抽獎系統】 &c這個箱子已經由某人打開，請等待他們完成打開自己的箱子後再打開您的！"
+
+# 如果玩家花費太長時間選擇是否重新打開箱子或接受獎勵（給定的時間- 90秒），應該收到什麼訊息？
+Took_Too_Long_To_Reroll: "&e&l 【抽獎系統】 &c您花費的時間過長，獎勵已自動接受。"
+
+No_Perm_Open_Crate: "&e&l 【抽獎系統】 &c抱歉，您無權打開%crate%"
+
+Blacklisted_Permissions: "&e&l 【抽獎系統】 &c抱歉，您無法打開%crate%箱子。"
+
+Virtual_Key_Balance: "&f&l虛擬鑰匙餘額："
+
+Toggle_Messages_Message: "&e消息%status%" #狀態 - 启用/禁用
+
+Incorrect_Arguments: "【抽獎系統】 命令引數未正確使用，請執行/main_command%以獲取更多信息！"
+
+Virtualkey_Gift_Failed: "&e&l 【抽獎系統】 &c無法贈送鑰匙，您只能向在線玩家贈送鑰匙。"
+
+Not_Enough_Keys_Gift: "&e&l 【抽獎系統】 &c您沒有足夠的鑰匙來贈送。"
+
+Given_Virtualkeys: "&e&l 【抽獎系統】 &e已給予%amount%虛擬鑰匙給%player%！"
+
+Virtualkeys_Set: "&e&l 【抽獎系統】 &e已成功設置%player%用戶的%crate%的虛擬鑰匙餘額為%amount%！"
+
+No_VKeys_Found: " &7未找到虛擬鑰匙。"
+
+Look_Away_Wall: " &c請遠離牆壁以打開%container%。" #%container%被替換為箱子/袋子
+
+Help_Command:
+  - ""
+  - "&5&l&m-----------&5&l< &d&l抽獎系統 &5&l>&5&l&m----------"
+  - ""
+  - " &d/%main_command% list &7- &f列出所有可用的箱子名稱。"
+  - " &d/%main_command% config &7- &f打開插件的內置編輯器。"
+  - " &d/%main_command% give &a<player> &a<crate> &3<amount> &7- &f給予玩家指定的箱子。"
+  - " &d/%main_command% key give &a<player> &a<crate> &3<amount> &7- &f給予玩家指定的箱子鑰匙。"
+  - " &d/%main_command% virtualkey give &a<player> &a<crate> &3<amount> &7- &f給予玩家指定的箱子虛擬鑰匙。"
+  - " &d/%main_command% virtualkeys - &f列出玩家擁有的所有虛擬鑰匙。"
+  - " &d/%main_command% pouch list &7- &f列出所有可用的袋子。"
+  - " &d/%main_command% pouch give &a<player> &a<pouch> &3<amount> &7- &f給予玩家指定的袋子。"
+  - " &d/%main_command% set &a<crate> &7- &f將您正在查看的方塊設置為箱子。"
+  - " &d/%main_command% remove &7- &f刪除您正在查看的方塊，使其不再是箱子。"
+  - " &d/%main_command% togglemessages &7- &f啟用/禁用發送給玩家的消息。"
+  - ""
+  - " &a<> &f- 必要引數； &3<> &f- 可選引數"
+  - " &f第 {&d1 &f/ 2} 頁；執行 &d/%main_command% help 2 &f以獲取更多命令！"
+  - ""
+  - "&5&l&m-----------&5&l< &d&l抽獎系統 &5&l>&5&l&m----------"
+  - ""
+  
+Help_Command2:
+  - ""
+  - "&5&l&m-----------&5&l< &d&l抽獎系統 &5&l>&5&l&m----------"
+  - ""
+  - " &d/%main_command% giveall &a<crate> &3<amount> &7- &f給予伺服器上的每個人指定的箱子。"
+  - " &d/%main_command% key giveall &a<crate> &3<amount> &7- &f給予伺服器上的每個人指定的箱子鑰匙。"
+  - " &d/%main_command% sgive &a<player> &a<crate> &3<amount> &7- &f悄悄給予（不發送接收箱子的訊息）"
+  - " &d/%main_command% virtualkey gift &a<player> &a<crate> &3<amount> &7- &f向玩家贈送虛擬鑰匙。"
+  - " &d/%main_command% virtualkey set &a<player> &a<crate> &3<amount> &7- &f將玩家的虛擬鑰匙餘額設置為指定的數量。"
+  - " &d/%main_command% virtualkey giveall &a<crate> &3<amount> &7- &f給予伺服器上的每個人指定的虛擬箱子鑰匙。"
+  - " &d/%main_command% virtualkey withdraw &a<crate> &3<amount> &7- &f從虛擬鑰匙餘額中提取一個鑰匙。"
+  - " &d/%main_command% pouch sgive &a<player> &a<pouch> &3<amount> &7- &f悄悄給予袋子（不發送接收袋子的訊息）"
+  - " &d/%main_command% pouch giveall &a<pouch> &3<amount> &7- &f給予伺服器上的每個人指定的袋子。"
+  - " &d/%main_command% reload &7- &f重新加載所有插件配置。"
+  - " &d/%main_command% errors &7- &f發送箱子未正確配置的原因和位置。"
+  - " &d/%main_command% rewards &6<CrateName> &7- &f預覽可能的箱子獎勵。"
+  - " &d/%main_command% rewards &6<PlayerName> <CrateName> &7- &f為玩家打開箱子可能的獎勵預覽。"
+  - " &d/%main_command% open &6<PlayerName> <CrateName> &7- &f強制為玩家打開箱子。"
+  - ""
+  - " &a<> &f- 必要引數； &3<> &f- 可選引數"
+  - " &f第 {&d2 &f/ 2} 頁；執行 &d/%main_command% help 2 &f以獲取更多命令！"
+  - ""
+  - "&5&l&m-----------&5&l< &d&l抽獎系統 &5&l>&5&l&m----------"
+  - ""

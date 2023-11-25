@@ -1,0 +1,187 @@
+# ** 指令和權限 **
+# /ac list - 列出所有可用的箱子名稱。 ; AC.List
+# /ac set <crate> - 設置您正在查看的箱子為箱子。 ; AC.Set
+# /ac remove - 將您所查看的方塊從箱子中移除。 ; AC.Remove
+# /ac give <player> <crate> <amount> - 將指定箱子給予一名玩家。 ; AC.Give
+# /ac sgive <player> <crate> <amount> - 靜默給予（不會發送接收箱子的消息） ; AC.Give
+# /ac giveall <crate> <amount> - 將指定箱子給予伺服器上的所有人。 ; AC.GiveAll
+# /ac key give <player> <crate> <amount> - 將指定的箱子鑰匙給予玩家。 ; AC.Give
+# /ac key giveall <crate> <amount> - 將指定數量的箱子鑰匙給予伺服器上的每個人。 ; AC.Give
+# /ac virtualkey withdraw <crate> <amount> - 將虛擬鑰匙提取為實體鑰匙。 ; AC.Withdraw
+# /ac virtualkey give <player> <crate> <amount> - 將指定箱子的虛擬鑰匙給予玩家。 ; AC.VGive
+# /ac virtualkey set <player> <crate> <amount> - 設置玩家指定箱子的虛擬鑰匙。 ; AC.VSet
+# /ac virtualkeys <player> - 顯示玩家的虛擬鑰匙餘額。 ; AC.VGive
+# /ac virtualkeys - 顯示執行命令的玩家的虛擬鑰匙餘額
+# /ac config - 開啟插件的遊戲內編輯器。 ; AC.Config
+# /ac reload - 重新載入所有插件配置。 ; AC.Reload
+# /ac errors - 傳送出為什麼和哪裡箱子未正確配置的訊息。 ; AC.Errors
+# /ac pouch list - 列出所有可用袋子。 ; AC.PouchList
+# /ac pouch give <player> <pouch> <amount> - 將指定袋子給予玩家。 ; AC.PouchGive
+# /ac pouch giveall <pouch> <amount> - 將指定袋子給予伺服器上的所有人。 ; AC.Giveall
+# /ac pouch sgive <player> <pouch> <amount> - 靜默給予（不會發送接收袋子的消息） ; AC.PouchGive
+# /ac togglemessages - 開啟/關閉通過 AC 插件傳送給玩家的訊息 ; AC.ToggleMessages
+# 具有 "AC.CantOpen" 權限的使用者無法打開箱子。這可用於多個世界設置（當進入一個世界時，使用者獲得此權限並無法打開箱子）
+
+# 玩家在打開月度箱子時應該被封鎖的指令是哪些？ac.CommandBypass 用於繞過此限制。不影響 OP！
+BlockedCommands:
+# - "warp"
+# - "home"
+
+# ** 變數 **
+# {player_name} / %player_name% - 用使用者的暱稱替換。
+# {random_number} - 需要額外的條件：RandomNumberMin（數字）; RandomNumberMax（數字）
+# %player_displayname% - 用使用者的顯示名稱替換（用於箱子描述）
+
+# ** 配置 **
+
+# 玩家可能潛在看到方塊動畫的半徑應該是多少（性能越好越小）
+How_Far_Shown_Animation: 65
+
+# 在 30 個方塊半徑內最多有多少玩家可以看到一個動畫？如果附近有更多玩家，動畫將使用實體
+# （建議將此數字保持較低，因為某些動畫會發送大量封包，可能會對某些機器造成高 CPU 負載）
+Max_Players_Per_Animation: 15
+
+# 插件生成的所有閃電是否應該是無聲的（不發出聲音）？
+Lightning_silent: false
+
+# 如果玩家的背包格子數少於箱子設置的大小，玩家是否應該無法打開箱子？
+Max_Inventory_Reached: false
+
+# 用於使用 AdvancedCrates 插件的主要命令，默認為 /ac。更改此值後請重新啟動伺服器
+main_command: "adc" # /ac 會跟 AntiCreeper 插件衝突
+
+# 是否也應該向 alts 提供 mcrate giveall 箱子，還是每個 IP 只能提供 1 個箱子？
+alts_get_giveall: false
+
+# 單個玩家可以同時打開多少個箱子？
+MonthlyCrates_Player_Limit: 1
+
+# 伺服器上可以同時打開多少個箱子？
+MonthlyCrates_Global_Limit: 50
+
+# 伺服器上可以同時打開多少個袋子？
+MonthlyCrates_Global_Pouch_Limit: 50
+
+# 打開箱子所需的箱子之間應該有多接近/多遠的半徑？
+Crate_Radius: 10
+
+# 打開袋子所需的袋子之間應該有多接近/多遠的半徑？
+Pouch_Radius: 2
+
+# 顯示動畫應該持續多長時間？（以秒為單位）
+Display_Animation_Lenght: 14
+
+# 更改顯示動畫中物品之間的間隔應該是多少？（以秒為單位）
+Display_Animation_Item_Change: 3
+
+# 顯示動畫中的水滴是否應該啟用？
+Display_Animation_Water_Drops: true
+
+# 顯示動畫中的熔岩滴是否應該啟用？如果是，請不要忘記在上面禁用水滴。
+Display_Animation_Lava_Drops: false
+
+# 物品變化時是否應該在顯示動畫中顯示村民粒子？
+Display_Animation_Villager_Particle: true
+
+# 袋子結束時應該有什麼效果？（目前可用效果：閃電、爆炸、煙霧、火焰），留空表示無效果。
+PouchEnding: "Lightning"
+
+# 在“Round”動畫中更改物品時應該顯示哪些粒子效果？（目前可用效果：Instant_Spell、Flame），留空表示無效果。
+Item_Change_Particle_Round: "Instant_Spell"
+
+# 放置在地面上的 "Round" 動畫應該有多高？
+Round_How_High: 3
+
+# Round2 動畫應該持續多長時間？（以秒為單位）
+Round2_Animation_Lenght: 12
+
+# 在 Round2 動畫中，當神秘物品變成物品時，是否應該有閃電效果？
+Round2_Animation_Lightning: true
+
+# Round2 動畫旋轉速度應該有多快？（可以使用小數）
+Round2_Animation_Speed: 3
+
+# Round 動畫旋轉速度應該有多快？（可以使用小數）
+Round_Animation_Speed: 3
+
+# Round 動畫應該持續多長時間？（以秒為單位）
+Round_Animation_Lenght: 8
+
+# 在動畫結束時是否應該有閃電效果？
+Round_Lightning: true
+
+# 打開箱子動畫時，袋子是否應該有螺旋粒子效果？（是/否）
+Pouch_Spiral_Effect: true
+
+# 物品在動畫中繞著違禁箱浮動的速度應該有多快？
+Contraband_Floating_Item_Animation_Speed: 1.5
+
+# 物品在動畫中繞著違禁箱浮動多長時間後，獎勵開始消失？（以秒為單位）
+Contraband_Floating_Items_Time: 2
+
+# 在違禁箱動畫中，物品出現的間隔應該是多少？（以秒為單位）
+Contraband_Floating_Item_Spawn_Interval: 0.65
+
+# 在違禁箱動畫中，物品消失的間隔應該是多少？（以秒為單位）
+Contraband_Floating_Item_Disappear_Interval: 0.65
+
+# 當只剩下最終獎勵物品時，在違禁箱動畫中物品繞著浮動多長時間？（以秒為單位）
+Contraband_Final_Items_Floating_Time: 1.3
+
+# 當玩家贏得獎勵後，這些獎勵物品應該顯示多長時間？（以秒為單位）
+Contraband_Won_Items_Displayed_Time: 10
+
+# 違禁箱動畫中箱子物品應該飄升多高
+Contraband_Height: 2
+
+# 是否應該使 give 指令區分大小寫？（如果為 true，則 "Crate" 和 "crate" 視為不同的箱子）
+Give_Command_Case_Sensitive: true
+
+# 是否應該在動畫中顯示保證獎勵？（目前僅適用於 "Round" 動畫）
+Guaranteed_Rewards_Shown: false
+
+# 這允許在冒險模式伺服器上的使用者能夠打開箱子（使得當使用者右擊空氣時，會打開一個箱子）
+Adventure_Mode: false
+
+# 這使得創造模式下的使用者無法打開箱子
+Cant_Open_Creative: false
+
+# 一旦設置為 true，即使玩家在背包中擁有鑰匙，只要不拿在手中，也不允許玩家打開靜止的箱子
+Must_Hold_Key_In_Hand: false
+
+# 一旦設置為 true，玩家將無法將箱子鑰匙丟在地上，也無法將鑰匙放入箱子/終界箱等
+Cant_Drop_Key: false
+
+# 一旦設置為 true，當背包已滿時，不會將鑰匙丟在地上，而是將其作為虛擬鑰匙給予玩家
+Give_As_Virtualkey_If_Inventory_Full: false
+
+# 如果您不打算使用虛擬鑰匙，建議將此功能設置為停用
+VirtualKeys_Enabled: true
+
+# 如果您不打算使用實體物品鑰匙，僅使用虛擬鑰匙或箱子方塊，隨時可以停用此功能
+PhysicalKeys_Enabled: true
+
+# 調試模式
+Debug_Mode: false
+
+# 一些可配置的設置已經解釋了，其他設置應該是自明的。
+# 如有任何問題或錯誤報告，請聯繫 SpigotMC 上的 "PM2." 或 Discord 上的 PM2#5811。
+
+# 自定義物品修改選項：
+# CustomModelData:
+#
+# RandomNumberMin: 5  
+# RandomNumberMax: 20
+# 都需要工作，用於命令的變數 - {random_number}，也可以用於獎勵的名稱。
+# 在獎勵中有多個命令並且需要在範圍內生成新的隨機數時，可以使用占位符 {new_random_number} 或 %new_random_number%。
+
+# Damage:
+# 用於較舊的 Spigot 版本。
+
+# Base64Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNlZjlhYTE0ZTg4NDc3M2VhYzEzNGE0ZWU4OTcyMDYzZjQ2NmRlNjc4MzYzY2FkMzIzOTNjNzIzZWY0MTViYyJ9fX0=
+# 紋理可以應用於新版本的 PLAYER_HEAD，或者用於舊版本的 SKULL_ITEM + Damage: 3
+# 您可以在 minecraft-heads.com 找到不同的頭部紋理。
+# 要查找皮膚紋理，請在所選頭部頁面的底部，"Others:" 部分的 "Value:" 下查找它。
+
+       
+
